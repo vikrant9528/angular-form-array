@@ -1,0 +1,30 @@
+.form-data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 5px;
+    width: 40%;
+}
+input:hover{
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+}
+.btn-primary{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+.btn-secondary{
+    padding: 5px;
+    background-color: grey;
+    color: white;
+}
+.action{
+    display: flex;
+    gap: 10px;
+}
